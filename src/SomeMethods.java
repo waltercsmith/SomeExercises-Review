@@ -28,7 +28,15 @@
 //
 //            System.out.println(sayYo(5));
 
+        User newUser = new User();
 
+        newUser.userName = "Walt243";
+
+        newUser.firstName = "Walt";
+
+        newUser.surName = "Smith";
+
+        newUser.createPost();
 
 
 

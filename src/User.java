@@ -1,11 +1,19 @@
 public class User {
     //In the future create User class in another page (completed)
 
+        public String firstName;
+
+        public String surName;
+
+        public String userName;
+
+        public String passWord;
+
+
+
         public String drinkBeverage(String beverage){
             return "Drinking beverage called: " + beverage;
         }
-
-
 
         public void createPost(){
             System.out.println("Created New Post");
