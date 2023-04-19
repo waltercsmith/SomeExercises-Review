@@ -14,7 +14,18 @@
         public static void changeString(String s) {
             s = "Wub a lub a dub dub";
         }
+//      Prints Three
+        public static void printThree(){
+            System.out.println("Three");
+        }
 
+        public static String greetVisitor(String name){
+            return "Welcome " + name + " !";
+        }
+
+        public static String greetUser(String user){
+            return "Welcome Back " + user + " !";
+        }
         public static void main(String[] args){
 
 
@@ -38,7 +49,14 @@
 
         newUser.createPost();
 
+//        Invoke/Call printThree method
+            printThree();
 
+
+//        Invoke/Call greetVisitor method BUT in order to print the return need to use the System.out.print
+            greetVisitor("Walt");
+
+            System.out.println(greetVisitor("Walt"));
 
 
 
